@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"layout": {
+			"contentSize": "1183px",
+			"wideSize": "1183px"
+		},
+		"color": {
+			"palette": [
+				{
+					"slug": "travelnews-black",
+					"color": "#131313",
+					"name": "Black"
+				},
+				{
+					"slug": "travelnews-white",
+					"color": "#f7f7f7",
+					"name": "White"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "'Nunito Sans', sans-serif",
+					"slug": "nunito",
+					"name": "Heading - Nunito"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--nunito)",
+			"lineHeight": "1.75",
+			"fontSize": "1rem"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nunito)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nunito)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nunito)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nunito)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nunito)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nunito)"
+				}
+			}
+		}
+	}
+}
