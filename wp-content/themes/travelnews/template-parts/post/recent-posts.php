@@ -47,7 +47,7 @@
 				<div class="row g-3">
 					<div class="col-4">
 						<a class="ratio ratio-4x3" href="<? echo get_permalink( $post['ID'] ) ?>">
-							<img class="rounded-2 fit-cover" src="<? echo get_the_post_thumbnail_url( $post['ID'] ) ?>)" alt="">
+							<img class="rounded-2 fit-cover" src="<? echo get_the_post_thumbnail_url( $post['ID'] ) ?>" alt="">
 						</a>
 					</div>
 					<div class="col-8">
